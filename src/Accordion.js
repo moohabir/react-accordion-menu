@@ -12,7 +12,7 @@ export default function Accordion({ question, answer }) {
         <h1>{question}</h1>
 
         <button className="btn" onClick={togle}>
-          {show ? "_" : "+"}
+          {show ? "-" : "+"}
         </button>
       </header>
       {show && <p className="p">{answer}</p>}
